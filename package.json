@@ -8,7 +8,12 @@
   },
   "author": "",
   "license": "ISC",
+  "jshintConfig":{
+    "esversion": 6
+  },
   "dependencies": {
+    "express": "^4.15.3",
+    "mustache-express": "^1.2.5",
     "pg": "^6.4.0",
     "sequelize": "^4.2.0",
     "sequelize-cli": "^2.7.0"
